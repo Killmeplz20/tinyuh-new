@@ -66,23 +66,23 @@ const About = () => {
       <div className="grid grid-cols-2 gap-12 mx-20">
         <div className="m-auto text-center text-main space-y-4">
           <Image src={"/yussan.svg"} alt="" height={"300"} width={"300"} />
-          <h1 className="font-bold text-3xl">Yussan A.F</h1>
-          <i className="font-light">as a Tea Brewer</i>
+          <h1 className="font-bold lg:text-3xl text-lg">Yussan A.F</h1>
+          <i className="lg:text-lg text-sm font-light">as a Tea Brewer</i>
         </div>
         <div className="m-auto text-center text-main space-y-4">
           <Image src={"/arman.svg"} alt="" height={"300"} width={"300"} />
-          <h1 className="font-bold text-3xl">Arman Knaci</h1>
-          <i className="font-light">as a Spice Brewer</i>
+          <h1 className="font-bold lg:text-3xl text-lg">Arman Knaci</h1>
+          <i className="lg:text-lg text-sm font-light">as a Spice Brewer</i>
         </div>
         <div className="m-auto text-center text-main space-y-4">
           <Image src={"/alfi.svg"} alt="" height={"300"} width={"300"} />
-          <h1 className="font-bold text-3xl">Alfi Syahrian</h1>
-          <i className="font-light">Alfi Syahrian</i>
+          <h1 className="font-bold lg:text-3xl text-lg">Alfi Syahrian</h1>
+          <i className="lg:text-lg text-sm font-light">Alfi Syahrian</i>
         </div>
         <div className="m-auto text-center text-main space-y-4">
           <Image src={"/aldizar.svg"} alt="" height={"300"} width={"300"} />
-          <h1 className="font-bold text-3xl">Aldizar Ahmad</h1>
-          <i className="font-light">as a Ceramic Artis</i>
+          <h1 className="font-bold lg:text-3xl text-lg">Aldizar Ahmad</h1>
+          <i className="lg:text-lg text-sm font-light">as a Ceramic Artis</i>
         </div>
       </div>
       <div className="flex justify-center items-center py-20">
