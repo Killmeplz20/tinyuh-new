@@ -2,6 +2,7 @@ import Title from "@/app/components/title";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { FaInstagram, FaYoutube } from "react-icons/fa";
 
 const Activity = () => {
   return (
@@ -19,7 +20,7 @@ const Activity = () => {
           className="mx-auto"
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/jUkoL9RE72o?si=xa529lSXgxr04dn1"
+          src="https://www.youtube.com/embed/hsobC_yguaY?si=GBbQuTFPrIUYQwEp"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -27,10 +28,18 @@ const Activity = () => {
           allowFullScreen
         ></iframe>
         <div className="gap-12 flex items-center justify-center pt-12">
-          <Link href={"/"} className="bg-main text-black px-4 py-2 rounded-sm">
+          <Link
+            href={"https://www.youtube.com/watch?v=hsobC_yguaY"}
+            className="bg-main text-black px-4 py-2 rounded-sm flex items-center gap-2"
+          >
+            <FaYoutube size={"15"} />
             Visit Us
           </Link>
-          <Link href={"/"} className="bg-main text-black px-4 py-2 rounded-sm">
+          <Link
+            href={"https://www.instagram.com/tiny_uh/"}
+            className="bg-main text-black px-4 py-2 rounded-sm flex items-center gap-2"
+          >
+            <FaInstagram size={"15"} />
             Visit Us
           </Link>
         </div>

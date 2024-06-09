@@ -10,7 +10,7 @@ const Contact = () => {
       <div className="grid grid-cols-4 gap-y-6 lg:gap-y-12">
         <div className="text-center space-y-3 mx-auto col-span-2">
           <Image
-            src={"/rempah.svg"}
+            src={"/email-icon.svg"}
             alt=""
             className="mx-auto pt-6 w-auto h-auto lg:w-[150px] lg:h-[150px]"
             width={"1000"}
@@ -26,7 +26,7 @@ const Contact = () => {
         </div>
         <div className="text-center space-y-3 mx-auto col-span-2">
           <Image
-            src={"/kasungka.svg"}
+            src={"/ig-icon.svg"}
             alt=""
             className="mx-auto pt-6 w-auto h-auto lg:w-[150px] lg:h-[150px]"
             width={"1000"}
@@ -42,7 +42,7 @@ const Contact = () => {
         </div>
         <div className="text-center space-y-3 mx-auto col-span-4">
           <Image
-            src={"/sampyong.svg"}
+            src={"/wa-icon.svg"}
             alt=""
             className="mx-auto pt-6 w-auto h-auto lg:w-[150px] lg:h-[150px]"
             width={"1000"}
