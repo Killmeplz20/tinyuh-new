@@ -17,7 +17,7 @@ const Products = () => {
             width={"1000"}
             height={"1000"}
           />
-          <h1 className="text-2xl pb-6">Rempah Embasssy</h1>
+          <h1 className="text-2xl pb-6">Rempah Embassy</h1>
           <Link
             href={"https://www.instagram.com/rempahembassy/"}
             className="border-2 border-main rounded-xl px-4 py-2 text-2xl"
