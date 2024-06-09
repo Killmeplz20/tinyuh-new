@@ -31,17 +31,17 @@ const Works = () => {
       </div>
       <div className="my-6">
         <Title title="Single." />
-        <iframe
-          className="mx-auto"
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/hsobC_yguaY?si=GBbQuTFPrIUYQwEp"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        ></iframe>
+        <div className="w-full">
+          <iframe
+            className="mx-auto lg:w-[560px] lg:h-[315px] w-auto h-auto"
+            src="https://www.youtube.com/embed/hsobC_yguaY?si=GBbQuTFPrIUYQwEp"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
         <div className="flex items-center justify-center pt-12">
           <Link
             href={"https://www.youtube.com/watch?v=hsobC_yguaY"}

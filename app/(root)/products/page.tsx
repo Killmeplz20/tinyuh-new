@@ -2,7 +2,7 @@ import Title from "@/app/components/title";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { FaInstagram } from "react-icons/fa";
+import { FaInstagram, FaShoppingBag } from "react-icons/fa";
 
 const Products = () => {
   return (
@@ -67,13 +67,18 @@ const Products = () => {
           />
           <h1 className="text-2xl pb-6">Terakota Tanaraya</h1>
           <Link
-            href={"https://www.instagram.com/tehsampyong?igsh=MXU5N2E3ZzZnb2R4bg=="}
+            href={
+              "https://www.instagram.com/tehsampyong?igsh=MXU5N2E3ZzZnb2R4bg=="
+            }
             className="border-2 border-main rounded-xl px-4 py-2 text-2xl"
           >
             Visit
           </Link>
         </div>
         <div className="text-center space-y-3 mx-auto">
+          <div className="flex items-center justify-center">
+            <FaShoppingBag className="lg:w-[150px] lg:h-[150px] w-[50px] h-[50px]" />
+          </div>
           <h1 className="text-2xl pb-6">Ecommerce</h1>
           <div className="gap-12 flex items-center justify-center pt-4">
             <Link
