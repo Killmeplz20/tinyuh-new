@@ -71,7 +71,7 @@ const Activity = () => {
             height={"50"}
             className="mx-auto"
           />
-          <p className="font-base text-lg">Kasungka Coffe</p>
+          <p className="font-base text-lg">Kasungka Coffee</p>
         </div>
         <div className="mx-auto col-span-2">
           <Image
