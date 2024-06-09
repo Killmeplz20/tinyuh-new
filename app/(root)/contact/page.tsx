@@ -18,7 +18,7 @@ const Contact = () => {
           />
           <h1 className="text-2xl pb-6">Email</h1>
           <Link
-            href={"/"}
+            href={"https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=tinyuh.project@gmail.com"}
             className="border-2 border-main rounded-xl px-4 py-2 text-2xl"
           >
             Visit
@@ -34,7 +34,7 @@ const Contact = () => {
           />
           <h1 className="text-2xl pb-6">Instagram</h1>
           <Link
-            href={"/"}
+            href={"https://www.instagram.com/tiny_uh/"}
             className="border-2 border-main rounded-xl px-4 py-2 text-2xl"
           >
             Visit
@@ -53,7 +53,7 @@ const Contact = () => {
             <h6 className="font-light">( Yussan )</h6>
           </div>
           <Link
-            href={"/"}
+            href={"https://wa.me/089524669313"}
             className="border-2 border-main rounded-xl px-4 py-2 text-2xl"
           >
             Visit
