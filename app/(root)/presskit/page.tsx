@@ -18,11 +18,11 @@ const Presskit = () => {
           />
           <h1 className="text-2xl pb-6">Photo</h1>
           <Link
-            href={"/"}
+            href={"https://drive.google.com/drive/folders/1JqkcXMjIBAAwMK4AQs3iJkC-oPJcZlKc?usp=drive_link"}
             className="border-2 border-main rounded-xl px-4 py-2 text-2xl"
           >
             Visit
-          </Link>
+          </Link> 
         </div>
         <div className="text-center space-y-3 mx-auto col-span-2">
           <Image
