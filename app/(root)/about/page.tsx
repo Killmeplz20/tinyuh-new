@@ -65,15 +65,12 @@ const About = () => {
       </div>
       <div className="grid grid-cols-2 gap-12 mx-20">
         <div className="m-auto text-center text-main space-y-4">
-          <Image src={"/yussan.svg"} alt="" height={"300"} width={"300"} />
+          <Image src={"/yussan.svg"} alt="" height={"300"} width={"300"} /> <link rel="apple-touch-icon" href="https://www.instagram.com/yussanahmadfauzi?igsh=MXM2cDkzZ2N5NG4zcw==" />
           <h1 className="font-bold lg:text-3xl text-lg">Yussan A.F</h1>
-          <Link
-              href={"https://www.instagram.com/yussanahmadfauzi?igsh=MXM2cDkzZ2N5NG4zcw=="}
           <i className="lg:text-lg text-sm font-light">as a Tea Brewer</i>
         </div>
         <div className="m-auto text-center text-main space-y-4">
           <Image src={"/arman.svg"} alt="" height={"300"} width={"300"} />
-          <link rel="/arman.svg" href="https://www.instagram.com/armanknaci?igsh=N2syMjhraW05d3Vz" />
           <h1 className="font-bold lg:text-3xl text-lg">Arman Knaci</h1>
           <i className="lg:text-lg text-sm font-light">as a Spice Brewer</i>
         </div>
