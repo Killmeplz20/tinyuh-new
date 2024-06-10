@@ -34,7 +34,7 @@ const Presskit = () => {
           />
           <h1 className="text-2xl pb-6">Logo</h1>
           <Link
-            href={"/"}
+            href={"https://drive.google.com/file/d/16AA83k6okge5LmJyRmHWCNoVRwDvQzES/view?usp=drive_link"}
             className="border-2 border-main rounded-xl px-4 py-2 text-2xl"
           >
             Visit
@@ -50,7 +50,7 @@ const Presskit = () => {
           />
           <h1 className="text-2xl pb-6 ">Tech Riders</h1>
           <Link
-            href={"/"}
+            href={"https://drive.google.com/file/d/1LpSeQMrVAauQd1F1Axr3lWhE_B4bqhtj/view?usp=drivesdk"}
             className="border-2 border-main rounded-xl px-4 py-2 text-2xl"
           >
             Visit
