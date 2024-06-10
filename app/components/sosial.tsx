@@ -26,7 +26,7 @@ const Sosial = () => {
       </Link>
       <Link
         className="bg-main rounded-full lg:w-14 lg:h-14 w-10 h-10 items-center flex justify-center"
-        href={"https://www.youtube.com/@tinyUh"}
+        href={"https://tinyuh.bandcamp.com/album/150616841696"}
       >
         <Image alt="" width={"35"} height={"35"} src={"/bc.svg"} />
       </Link>
