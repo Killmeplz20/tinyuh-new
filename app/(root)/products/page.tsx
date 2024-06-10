@@ -51,7 +51,7 @@ const Products = () => {
           />
           <h1 className="text-2xl pb-6">Teh Sampyong</h1>
           <Link
-            href={"https://www.instagram.com/kasungkacoffee/"}
+            href={"https://www.instagram.com/tehsampyong/"}
             className="border-2 border-main rounded-xl px-4 py-2 text-2xl"
           >
             Visit
@@ -68,7 +68,7 @@ const Products = () => {
           <h1 className="text-2xl pb-6">Terakota Tanaraya</h1>
           <Link
             href={
-              "https://www.instagram.com/tehsampyong?igsh=MXU5N2E3ZzZnb2R4bg=="
+              "https://www.instagram.com/terakotatanaraya/"
             }
             className="border-2 border-main rounded-xl px-4 py-2 text-2xl"
           >
