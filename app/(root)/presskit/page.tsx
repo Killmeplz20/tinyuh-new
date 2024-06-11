@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const Presskit = () => {
+const Presskit = () => 
   return (
     <div className="text-main pb-12">
       <Title title="Reqruitment." />
