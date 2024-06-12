@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="">
       <div className="hidden lg:block">
         <Image
-          src={"/"}
+          src={"/Foto-Main-Utama.png"}
           alt=""
           height={"1000"}
           width={"1000"}
