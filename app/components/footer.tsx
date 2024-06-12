@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div>
       <Image
-        src="/foto-bawah.svg"
+        src="/Foto-Main-Utama2.png"
         height="2000"
         width="2000"
         className="w-full h-full"
