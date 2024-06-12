@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="">
       <div className="hidden lg:block">
         <Image
-          src={"/Foto-Baru-Backg.svg"}
+          src={"/"}
           alt=""
           height={"1000"}
           width={"1000"}
@@ -15,7 +15,7 @@ const Hero = () => {
       </div>
       <div className="lg:hidden block">
         <Image
-          src={"/Foto-Baru-Backg.svg"}
+          src={"/Foto-Main-Utama.png"}
           alt=""
           height={"1000"}
           width={"1000"}
