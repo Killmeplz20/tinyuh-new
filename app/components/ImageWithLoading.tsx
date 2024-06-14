@@ -10,6 +10,7 @@ interface ImageProps {
   width: number;
   height: number;
   className: string;
+  className2: string;
 }
 const ImageWithLoading: React.FC<ImageProps> = ({
   src,
@@ -17,6 +18,7 @@ const ImageWithLoading: React.FC<ImageProps> = ({
   width,
   height,
   className,
+  className2,
 }) => {
   const [loading, setLoading] = useState(true);
 
@@ -42,7 +44,7 @@ const ImageWithLoading: React.FC<ImageProps> = ({
         height={height}
         onLoad={handleImageLoad}
         onError={handleImageError}
-        className={` ${
+        className={`${className2} ${
           loading ? "opacity-0" : "opacity-100"
         } transition-opacity duration-500`}
       />

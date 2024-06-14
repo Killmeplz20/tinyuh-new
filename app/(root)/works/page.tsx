@@ -14,6 +14,7 @@ const Works = () => {
         <h1 className="text-2xl">“ 150616841696 “</h1>
         <p>2023</p>
         <ImageWithLoading
+          className2=""
           src={"/album.svg"}
           alt=""
           className="mx-auto pt-6 w-auto h-auto lg:w-[500px] lg:h-[500px]"

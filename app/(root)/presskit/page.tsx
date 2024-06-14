@@ -11,6 +11,7 @@ const Presskit = () => {
       <div className="grid grid-cols-4 gap-y-6 lg:gap-y-12">
         <div className="text-center space-y-3 mx-auto col-span-2">
           <ImageWithLoading
+          className2=""
             src={"/photo-icon.svg"}
             alt=""
             className="mx-auto pt-6 w-auto h-auto lg:w-[150px] lg:h-[150px]"
@@ -27,6 +28,7 @@ const Presskit = () => {
         </div>
         <div className="text-center space-y-3 mx-auto col-span-2">
           <ImageWithLoading
+          className2=""
             src={"/logo-icon.svg"}
             alt=""
             className="mx-auto pt-6 w-auto h-auto lg:w-[150px] lg:h-[150px]"
@@ -43,6 +45,7 @@ const Presskit = () => {
         </div>
         <div className="text-center space-y-3 mx-auto col-span-4">
           <ImageWithLoading
+          className2=""
             src={"/tech-icon.svg"}
             alt=""
             className="mx-auto pt-6 w-auto h-auto lg:w-[150px] lg:h-[150px]"

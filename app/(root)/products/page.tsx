@@ -12,6 +12,7 @@ const Products = () => {
       <div className="grid grid-cols-1 gap-y-6 lg:gap-y-12">
         <div className="text-center space-y-3 mx-auto">
           <ImageWithLoading
+          className2=""
             src={"/rempah.svg"}
             alt=""
             className="mx-auto pt-6 w-auto h-auto lg:w-[250px] lg:h-[250px]"
@@ -28,6 +29,7 @@ const Products = () => {
         </div>
         <div className="text-center space-y-3 mx-auto">
           <ImageWithLoading
+          className2=""
             src={"/kasungka.svg"}
             alt=""
             className="mx-auto pt-6 w-auto h-auto lg:w-[250px] lg:h-[250px]"
@@ -44,6 +46,7 @@ const Products = () => {
         </div>
         <div className="text-center space-y-3 mx-auto">
           <ImageWithLoading
+          className2=""
             src={"/sampyong.svg"}
             alt=""
             className="mx-auto pt-6 w-auto h-auto lg:w-[250px] lg:h-[250px]"
@@ -60,6 +63,7 @@ const Products = () => {
         </div>
         <div className="text-center space-y-3 mx-auto">
           <ImageWithLoading
+          className2=""
             src={"/terakota.svg"}
             alt=""
             className="mx-auto pt-6 w-auto h-auto lg:w-[250px] lg:h-[250px]"

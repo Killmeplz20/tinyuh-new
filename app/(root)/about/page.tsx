@@ -9,7 +9,7 @@ const About = () => {
     <div className="text-main pb-12">
       <Title title="Our Story" />
       <div className="grid grid-cols-4 gap-4 lg:px-20 px-10">
-        <ImageWithLoading
+        <ImageWithLoading className2=""
           src={"/tinyuh.svg"}
           className="w-full h-auto m-auto p-12 lg:col-span-2 col-span-3"
           alt=""
@@ -66,22 +66,22 @@ const About = () => {
       </div>
       <div className="grid grid-cols-2 gap-12 mx-20">
         <div className="m-auto text-center text-main space-y-4">
-          <ImageWithLoading src={"/yussan.svg"} alt="" height={300} width={300} className="" />
+          <ImageWithLoading className2="" src={"/yussan.svg"} alt="" height={300} width={300} className="" />
           <h1 className="font-bold lg:text-3xl text-lg">Yussan A.F</h1>
           <i className="lg:text-lg text-sm font-light">as a Tea Brewer</i>
         </div>
         <div className="m-auto text-center text-main space-y-4">
-          <ImageWithLoading className="" src={"/arman.svg"} alt="" height={300} width={300} />
+          <ImageWithLoading className2="" className="" src={"/arman.svg"} alt="" height={300} width={300} />
           <h1 className="font-bold lg:text-3xl text-lg">Arman Knaci</h1>
           <i className="lg:text-lg text-sm font-light">as a Spice Brewer</i>
         </div>
         <div className="m-auto text-center text-main space-y-4">
-          <ImageWithLoading className="" src={"/alfi.svg"} alt="" height={300} width={300} />
+          <ImageWithLoading className2="" className="" src={"/alfi.svg"} alt="" height={300} width={300} />
           <h1 className="font-bold lg:text-3xl text-lg">Alfi Syahrian</h1>
           <i className="lg:text-lg text-sm font-light">as a Coffe Brewer</i>
         </div>
         <div className="m-auto text-center text-main space-y-4">
-          <ImageWithLoading className="" src={"/aldizar.svg"} alt="" height={300} width={300} />
+          <ImageWithLoading className2="" className="" src={"/aldizar.svg"} alt="" height={300} width={300} />
           <h1 className="font-bold lg:text-3xl text-lg">Aldizar Ahmad</h1>
           <i className="lg:text-lg text-sm font-light">as a Ceramic Artis</i>
         </div>
