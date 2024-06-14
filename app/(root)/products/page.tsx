@@ -1,3 +1,4 @@
+import ImageWithLoading from "@/app/components/ImageWithLoading";
 import Title from "@/app/components/title";
 import Image from "next/image";
 import Link from "next/link";
@@ -10,12 +11,12 @@ const Products = () => {
       <Title title="Products." />
       <div className="grid grid-cols-1 gap-y-6 lg:gap-y-12">
         <div className="text-center space-y-3 mx-auto">
-          <Image
+          <ImageWithLoading
             src={"/rempah.svg"}
             alt=""
             className="mx-auto pt-6 w-auto h-auto lg:w-[250px] lg:h-[250px]"
-            width={"1000"}
-            height={"1000"}
+            width={1000}
+            height={1000}
           />
           <h1 className="text-2xl pb-6">Rempah Embasi</h1>
           <Link
@@ -26,12 +27,12 @@ const Products = () => {
           </Link>
         </div>
         <div className="text-center space-y-3 mx-auto">
-          <Image
+          <ImageWithLoading
             src={"/kasungka.svg"}
             alt=""
             className="mx-auto pt-6 w-auto h-auto lg:w-[250px] lg:h-[250px]"
-            width={"1000"}
-            height={"1000"}
+            width={1000}
+            height={1000}
           />
           <h1 className="text-2xl pb-6">Kasungka Coffe</h1>
           <Link
@@ -42,12 +43,12 @@ const Products = () => {
           </Link>
         </div>
         <div className="text-center space-y-3 mx-auto">
-          <Image
+          <ImageWithLoading
             src={"/sampyong.svg"}
             alt=""
             className="mx-auto pt-6 w-auto h-auto lg:w-[250px] lg:h-[250px]"
-            width={"1000"}
-            height={"1000"}
+            width={1000}
+            height={1000}
           />
           <h1 className="text-2xl pb-6">Teh Sampyong</h1>
           <Link
@@ -58,12 +59,12 @@ const Products = () => {
           </Link>
         </div>
         <div className="text-center space-y-3 mx-auto">
-          <Image
+          <ImageWithLoading
             src={"/terakota.svg"}
             alt=""
             className="mx-auto pt-6 w-auto h-auto lg:w-[250px] lg:h-[250px]"
-            width={"1000"}
-            height={"1000"}
+            width={1000}
+            height={1000}
           />
           <h1 className="text-2xl pb-6">Terakota Tanaraya</h1>
           <Link
