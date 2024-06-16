@@ -87,8 +87,8 @@ const Activity = () => {
           <Image
             src={"/terakota.svg"}
             alt=""
-            width={"70"}
-            height={"70"}
+            width={"90"}
+            height={"90"}
             className="mx-auto"
           />
           <p className="font-base text-lg">Terakota Tanaraya</p>
