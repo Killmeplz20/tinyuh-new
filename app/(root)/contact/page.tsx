@@ -1,3 +1,4 @@
+import ImageWithLoading from "@/app/components/ImageWithLoading";
 import Title from "@/app/components/title";
 import Image from "next/image";
 import Link from "next/link";
@@ -9,12 +10,13 @@ const Contact = () => {
       <Title title="Contact." />
       <div className="grid grid-cols-4 gap-y-6 lg:gap-y-12">
         <div className="text-center space-y-3 mx-auto col-span-2">
-          <Image
+          <ImageWithLoading
+          className2=""
             src={"/email-icon.svg"}
             alt=""
-            className="mx-auto pt-6 w-auto h-auto lg:w-[150px] lg:h-[150px]"
-            width={"1000"}
-            height={"1000"}
+            className="mx-auto pt-6 w-auto h-auto lg:w-[100px] lg:h-[100px]"
+            width={1000}
+            height={1000}
           />
           <h1 className="text-2xl pb-6">Email</h1>
           <Link
@@ -25,12 +27,13 @@ const Contact = () => {
           </Link>
         </div>
         <div className="text-center space-y-3 mx-auto col-span-2">
-          <Image
+          <ImageWithLoading
+          className2=""
             src={"/ig-icon.svg"}
             alt=""
-            className="mx-auto pt-6 w-auto h-auto lg:w-[150px] lg:h-[150px]"
-            width={"1000"}
-            height={"1000"}
+            className="mx-auto pt-6 w-auto h-auto lg:w-[100px] lg:h-[100px]"
+            width={1000}
+            height={1000}
           />
           <h1 className="text-2xl pb-6">Instagram</h1>
           <Link
@@ -41,12 +44,13 @@ const Contact = () => {
           </Link>
         </div>
         <div className="text-center space-y-3 mx-auto col-span-4">
-          <Image
+          <ImageWithLoading
+          className2=""
             src={"/wa-icon.svg"}
             alt=""
-            className="mx-auto pt-6 w-auto h-auto lg:w-[150px] lg:h-[150px]"
-            width={"1000"}
-            height={"1000"}
+            className="mx-auto pt-6 w-auto h-auto lg:w-[100px] lg:h-[100px]"
+            width={1000}
+            height={1000}
           />
           <div className="pb-6">
             <h1 className="text-2xl ">Whatsapp</h1>

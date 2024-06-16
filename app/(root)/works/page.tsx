@@ -1,3 +1,4 @@
+import ImageWithLoading from "@/app/components/ImageWithLoading";
 import Title from "@/app/components/title";
 import Image from "next/image";
 import Link from "next/link";
@@ -12,12 +13,13 @@ const Works = () => {
       <div className="text-center mx-auto">
         <h1 className="text-2xl">“ 150616841696 “</h1>
         <p>2023</p>
-        <Image
+        <ImageWithLoading
+          className2=""
           src={"/album.svg"}
           alt=""
           className="mx-auto pt-6 w-auto h-auto lg:w-[500px] lg:h-[500px]"
-          width={"1000"}
-          height={"1000"}
+          width={1000}
+          height={1000}
         />
         <div className=" flex items-center justify-center pt-12">
           <Link
