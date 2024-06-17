@@ -2,18 +2,19 @@ import React from "react";
 import Title from "../../components/title";
 import Image from "next/image";
 import Link from "next/link";
+import ImageWithLoading from "@/app/components/ImageWithLoading";
 
 const About = () => {
   return (
     <div className="text-main pb-12">
       <Title title="Our Story" />
       <div className="grid grid-cols-4 gap-4 lg:px-20 px-10">
-        <Image
+        <ImageWithLoading className2=""
           src={"/tinyuh.svg"}
           className="w-full h-auto m-auto p-12 lg:col-span-2 col-span-3"
           alt=""
-          width={"2000"}
-          height={"2000"}
+          width={2000}
+          height={2000}
         />
         <div className="lg:col-span-2 col-span-4">
           <p className="tracking-wider text-xl">
@@ -65,22 +66,26 @@ const About = () => {
       </div>
       <div className="grid grid-cols-2 gap-12 mx-20">
         <div className="m-auto text-center text-main space-y-4">
+<<<<<<< HEAD
           <Image src={"/yussan.svg"} alt="" height={"300"} width={"300"} /> <link rel="apple-touch-icon" href="https://www.instagram.com/yussanahmadfauzi?igsh=MXM2cDkzZ2N5NG4zcw==" />
+=======
+          <ImageWithLoading className2="" src={"/yussan.svg"} alt="" height={300} width={300} className="" />
+>>>>>>> 54565e1833b7a8f37d254647b5a0344b991a5ab7
           <h1 className="font-bold lg:text-3xl text-lg">Yussan A.F</h1>
           <i className="lg:text-lg text-sm font-light">as a Tea Brewer</i>
         </div>
         <div className="m-auto text-center text-main space-y-4">
-          <Image src={"/arman.svg"} alt="" height={"300"} width={"300"} />
+          <ImageWithLoading className2="" className="" src={"/arman.svg"} alt="" height={300} width={300} />
           <h1 className="font-bold lg:text-3xl text-lg">Arman Knaci</h1>
           <i className="lg:text-lg text-sm font-light">as a Spice Brewer</i>
         </div>
         <div className="m-auto text-center text-main space-y-4">
-          <Image src={"/alfi.svg"} alt="" height={"300"} width={"300"} />
+          <ImageWithLoading className2="" className="" src={"/alfi.svg"} alt="" height={300} width={300} />
           <h1 className="font-bold lg:text-3xl text-lg">Alfi Syahrian</h1>
           <i className="lg:text-lg text-sm font-light">as a Coffe Brewer</i>
         </div>
         <div className="m-auto text-center text-main space-y-4">
-          <Image src={"/aldizar.svg"} alt="" height={"300"} width={"300"} />
+          <ImageWithLoading className2="" className="" src={"/aldizar.svg"} alt="" height={300} width={300} />
           <h1 className="font-bold lg:text-3xl text-lg">Aldizar Ahmad</h1>
           <i className="lg:text-lg text-sm font-light">as a Ceramic Artis</i>
         </div>

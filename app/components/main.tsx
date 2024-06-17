@@ -7,7 +7,7 @@ const Main = () => {
     <div className="relative lg:py-20">
       <div className="lg:flex inset-0 items-center hidden justify-center">
         <Image
-          src={"/logo-utama.svg"}
+          src={"/Logo.svg"}
           className="mx-auto mt-40 absolute"
           height={400}
           width={400}
