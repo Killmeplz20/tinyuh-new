@@ -16,8 +16,8 @@ const Products = () => {
             src={"/rempah.svg"}
             alt=""
             className="mx-auto pt-6 w-auto h-auto lg:w-[250px] lg:h-[250px]"
-            width={1000}
-            height={1000}
+            width={500}
+            height={500}
           />
           <h1 className="text-2xl pb-6">Rempah Embassy</h1>
           <Link
@@ -33,8 +33,8 @@ const Products = () => {
             src={"/kasungka.svg"}
             alt=""
             className="mx-auto pt-6 w-auto h-auto lg:w-[250px] lg:h-[250px]"
-            width={1000}
-            height={1000}
+            width={500}
+            height={500}
           />
           <h1 className="text-2xl pb-6">Kasungka Coffee</h1>
           <Link
@@ -50,8 +50,8 @@ const Products = () => {
             src={"/sampyong.svg"}
             alt=""
             className="mx-auto pt-6 w-auto h-auto lg:w-[250px] lg:h-[250px]"
-            width={1000}
-            height={1000}
+            width={500}
+            height={500}
           />
           <h1 className="text-2xl pb-6">Teh Sampyong</h1>
           <Link
@@ -67,8 +67,8 @@ const Products = () => {
             src={"/terakota.svg"}
             alt=""
             className="mx-auto pt-6 w-auto h-auto lg:w-[250px] lg:h-[250px]"
-            width={1000}
-            height={1000}
+            width={500}
+            height={500}
           />
           <h1 className="text-2xl pb-6">Terakota Tanaraya</h1>
           <Link
