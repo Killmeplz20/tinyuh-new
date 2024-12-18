@@ -82,7 +82,7 @@ const About = () => {
         <div className="m-auto text-center text-main space-y-4">
           <ImageWithLoading className2="" className="" src={"/alfi.svg"} alt="" height={300} width={300} />
           <h1 className="font-bold lg:text-3xl text-lg">Alfi Syahrian</h1>
-          <i className="lg:text-lg text-sm font-light">as a Coffee Brewers</i>
+          <i className="lg:text-lg text-sm font-light">as a Coffee Brewer</i>
         </div>
         <div className="m-auto text-center text-main space-y-4">
           <ImageWithLoading className2="" className="" src={"/aldizar.svg"} alt="" height={300} width={300} />
